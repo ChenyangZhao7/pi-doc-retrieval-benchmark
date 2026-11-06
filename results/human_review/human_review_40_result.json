@@ -1,0 +1,260 @@
+{
+  "reviewed_at": "2026-11-04",
+  "reviewer": "user",
+  "n": 40,
+  "label_1": 38,
+  "label_0_5": 1,
+  "label_0": 1,
+  "fully_consistent": "38/40 = 95.0%",
+  "acceptable_including_minor": "39/40 = 97.5%",
+  "revisions": {
+    "q366": "联创光电归母净利润 1.16 亿元 -> 4.80 亿元（480,172,675.11 元，第 6 页）；原值是 Q1 季度值。",
+    "q366_resolved": true
+  },
+  "minor": {
+    "q372": "表述微瑕，用户确认不改题。"
+  },
+  "items": [
+    {
+      "id": "q301",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q306",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q308",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q311",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q318",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q320",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q323",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q327",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q328",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q332",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q339",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q344",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q346",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q353",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q354",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q357",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q366",
+      "label": 0,
+      "need_revision": "Y",
+      "comment": "联创光电归母净利润应为 4.80 亿元（480,172,675.11 元，第 6 页）；原 1.16 亿元是 Q1 季度值，已修正。"
+    },
+    {
+      "id": "q367",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q372",
+      "label": 0.5,
+      "need_revision": "N",
+      "comment": "表述微瑕，用户确认可不改题。"
+    },
+    {
+      "id": "q374",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q384",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q387",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q390",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q402",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q403",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q405",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q409",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q416",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q419",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q421",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q426",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q430",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q441",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q443",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q445",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q446",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q448",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q453",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q457",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    },
+    {
+      "id": "q461",
+      "label": 1,
+      "need_revision": "N",
+      "comment": ""
+    }
+  ],
+  "q366_note": "参考答案已修正；模型回答一致；用户确认清理 recheck 标记。"
+}

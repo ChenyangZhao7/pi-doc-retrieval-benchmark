@@ -1,0 +1,16 @@
+{
+  "$schema": "https://pi.dev/schemas/models.schema.json",
+  "providers": {},
+  "modelOverrides": {
+    "deepseek-flash": {
+      "samplingParams": {
+        "temperature": 0
+      }
+    },
+    "deepseek-v4-pro": {
+      "samplingParams": {
+        "temperature": 0
+      }
+    }
+  }
+}

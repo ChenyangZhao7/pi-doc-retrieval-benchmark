@@ -1,0 +1,14 @@
+{
+  "n_runs": 60,
+  "successful_outside": {},
+  "blocked_runs": {
+    "G2_M_q311_r3": 1,
+    "G2_M_q359_r2": 1,
+    "G2_M_q364_r1": 1,
+    "G2_M_q364_r3": 1,
+    "G2_M_q365_r1": 1,
+    "G2_M_q365_r2": 1,
+    "G2_M_q365_r3": 2
+  },
+  "cite_hits": []
+}

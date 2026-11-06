@@ -1,0 +1,122 @@
+{
+  "seed": 20261104,
+  "allocation": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 2,
+    "E": 3
+  },
+  "n": 20,
+  "ids": [
+    "q306",
+    "q309",
+    "q311",
+    "q319",
+    "q322",
+    "q325",
+    "q332",
+    "q333",
+    "q334",
+    "q338",
+    "q340",
+    "q342",
+    "q352",
+    "q359",
+    "q360",
+    "q361",
+    "q364",
+    "q365",
+    "q375",
+    "q378"
+  ],
+  "category_counts": {
+    "B": 5,
+    "C": 5,
+    "E": 3,
+    "A": 5,
+    "D": 2
+  },
+  "items": [
+    {
+      "id": "q306",
+      "category": "B"
+    },
+    {
+      "id": "q309",
+      "category": "B"
+    },
+    {
+      "id": "q311",
+      "category": "C"
+    },
+    {
+      "id": "q319",
+      "category": "E"
+    },
+    {
+      "id": "q322",
+      "category": "A"
+    },
+    {
+      "id": "q325",
+      "category": "A"
+    },
+    {
+      "id": "q332",
+      "category": "A"
+    },
+    {
+      "id": "q333",
+      "category": "A"
+    },
+    {
+      "id": "q334",
+      "category": "A"
+    },
+    {
+      "id": "q338",
+      "category": "B"
+    },
+    {
+      "id": "q340",
+      "category": "B"
+    },
+    {
+      "id": "q342",
+      "category": "B"
+    },
+    {
+      "id": "q352",
+      "category": "C"
+    },
+    {
+      "id": "q359",
+      "category": "C"
+    },
+    {
+      "id": "q360",
+      "category": "C"
+    },
+    {
+      "id": "q361",
+      "category": "C"
+    },
+    {
+      "id": "q364",
+      "category": "D"
+    },
+    {
+      "id": "q365",
+      "category": "D"
+    },
+    {
+      "id": "q375",
+      "category": "E"
+    },
+    {
+      "id": "q378",
+      "category": "E"
+    }
+  ]
+}

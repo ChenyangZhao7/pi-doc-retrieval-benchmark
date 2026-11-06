@@ -1,0 +1,21 @@
+{
+  "thinking": "off",
+  "temperature": 0,
+  "_note": "这里是被测 agent 的运行参数。打分器的参数与价格在 config/judges.json。",
+  "fx_cny_per_usd": 7.1,
+  "_fx_note": "折算汇率为记录时点的假设值，仅用于跨厂商费用对比；报账请用实际账单。",
+  "model_versions": {
+    "deepseek/deepseek-flash": "DeepSeek-V4.1-Flash-1017",
+    "deepseek/deepseek-v4-pro": "DeepSeek-V4-Pro-0813"
+  },
+  "pricing_usd_per_million": {
+    "deepseek-flash": {
+      "peak": { "input": 0.3, "output": 1.2, "cache_read": 0.006 },
+      "off_peak": { "input": 0.15, "output": 0.6, "cache_read": 0.003 }
+    },
+    "deepseek-v4-pro": {
+      "peak": { "input": 1.32, "output": 3.96, "cache_read": 0.044 },
+      "off_peak": { "input": 0.66, "output": 1.98, "cache_read": 0.022 }
+    }
+  }
+}

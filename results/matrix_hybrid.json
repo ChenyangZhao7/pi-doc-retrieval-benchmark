@@ -1,0 +1,104 @@
+{
+  "G3h_S": {
+    "n": 20,
+    "score": 0.875,
+    "e_fixed": 0.9,
+    "tokens": 19693,
+    "seconds": 5.4,
+    "cost_mean": 0.0016,
+    "cost_total": 0.0312,
+    "judge_cost": 0.0076,
+    "by_category": {
+      "A": 1,
+      "B": 0.8,
+      "C": 1,
+      "D": 0.5,
+      "E": 0.833
+    }
+  },
+  "G3h_M": {
+    "n": 20,
+    "score": 0.925,
+    "e_fixed": 0.95,
+    "tokens": 19420,
+    "seconds": 5.6,
+    "cost_mean": 0.0014,
+    "cost_total": 0.0282,
+    "judge_cost": 0.0074,
+    "by_category": {
+      "A": 1,
+      "B": 0.9,
+      "C": 1,
+      "D": 0.75,
+      "E": 0.833
+    }
+  },
+  "G3h_L": {
+    "n": 20,
+    "score": 0.95,
+    "e_fixed": 0.975,
+    "tokens": 20643,
+    "seconds": 5.9,
+    "cost_mean": 0.0015,
+    "cost_total": 0.0298,
+    "judge_cost": 0.0101,
+    "by_category": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 0.75,
+      "E": 0.833
+    }
+  },
+  "G4h_S": {
+    "n": 20,
+    "score": 0.925,
+    "e_fixed": 0.925,
+    "tokens": 21171,
+    "seconds": 6.5,
+    "cost_mean": 0.0013,
+    "cost_total": 0.0257,
+    "judge_cost": 0.0071,
+    "by_category": {
+      "A": 1,
+      "B": 0.9,
+      "C": 0.9,
+      "D": 0.75,
+      "E": 1.0
+    }
+  },
+  "G4h_M": {
+    "n": 20,
+    "score": 0.95,
+    "e_fixed": 0.975,
+    "tokens": 25383,
+    "seconds": 10.6,
+    "cost_mean": 0.0013,
+    "cost_total": 0.0269,
+    "judge_cost": 0.0073,
+    "by_category": {
+      "A": 1,
+      "B": 0.9,
+      "C": 1,
+      "D": 1,
+      "E": 0.833
+    }
+  },
+  "G4h_L": {
+    "n": 20,
+    "score": 0.95,
+    "e_fixed": 0.975,
+    "tokens": 26329,
+    "seconds": 6.5,
+    "cost_mean": 0.0014,
+    "cost_total": 0.028,
+    "judge_cost": 0.0074,
+    "by_category": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 0.75,
+      "E": 0.833
+    }
+  }
+}

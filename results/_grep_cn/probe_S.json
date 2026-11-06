@@ -1,0 +1,214 @@
+{
+  "scale": "S",
+  "corpus": "<repo-root>\\S",
+  "documents": 10,
+  "probes": [
+    {
+      "axis": "baseline",
+      "query": "研发投入占营业收入",
+      "note": "简体无空格基线",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "baseline",
+      "query": "归属于上市公司股东的净利润",
+      "note": "简体无空格基线",
+      "docs_hit": 3,
+      "pages_hit": 4,
+      "matches": 5,
+      "hit": true
+    },
+    {
+      "axis": "baseline",
+      "query": "标准无保留意见",
+      "note": "简体无空格基线",
+      "docs_hit": 2,
+      "pages_hit": 2,
+      "matches": 2,
+      "hit": true
+    },
+    {
+      "axis": "baseline",
+      "query": "每10股派发现金红利",
+      "note": "简体无空格基线",
+      "docs_hit": 3,
+      "pages_hit": 3,
+      "matches": 3,
+      "hit": true
+    },
+    {
+      "axis": "baseline",
+      "query": "2025",
+      "note": "半角数字基线",
+      "docs_hit": 10,
+      "pages_hit": 153,
+      "matches": 327,
+      "hit": true
+    },
+    {
+      "axis": "baseline",
+      "query": "1,649 万辆",
+      "note": "千分位 + 空格基线",
+      "docs_hit": 1,
+      "pages_hit": 1,
+      "matches": 1,
+      "hit": true
+    },
+    {
+      "axis": "baseline",
+      "query": "342,496,653.85",
+      "note": "千分位数字基线",
+      "docs_hit": 1,
+      "pages_hit": 1,
+      "matches": 1,
+      "hit": true
+    },
+    {
+      "axis": "space",
+      "query": "研发 投入 占 营业收入",
+      "note": "中文词之间加半角空格",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "space",
+      "query": "研发　投入",
+      "note": "中文词之间加全角空格",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "space",
+      "query": "每 10 股派发现金红利",
+      "note": "数字与单位之间加空格",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "traditional",
+      "query": "研發投入",
+      "note": "繁体「研發」",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "traditional",
+      "query": "營業收入",
+      "note": "繁体「營業」",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "traditional",
+      "query": "淨利潤",
+      "note": "繁体「淨利潤」",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "traditional",
+      "query": "審計意見",
+      "note": "繁体「審計」",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "fullwidth",
+      "query": "２０２５",
+      "note": "全角数字",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "fullwidth",
+      "query": "％",
+      "note": "全角百分号",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "number",
+      "query": "1,649万辆",
+      "note": "去掉数字与单位之间的空格",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "number",
+      "query": "1649万辆",
+      "note": "同时去掉空格和千分位",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "number",
+      "query": "342496653.85",
+      "note": "去掉千分位逗号",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "number",
+      "query": "3.42亿元",
+      "note": "亿口径改写",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "number",
+      "query": "120,000,000",
+      "note": "千分位 + 元",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "synonym",
+      "query": "职工薪酬",
+      "note": "原文常用词",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    },
+    {
+      "axis": "synonym",
+      "query": "员工成本",
+      "note": "同义改写",
+      "docs_hit": 0,
+      "pages_hit": 0,
+      "matches": 0,
+      "hit": false
+    }
+  ]
+}

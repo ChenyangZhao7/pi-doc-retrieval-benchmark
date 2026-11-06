@@ -1,0 +1,37 @@
+{
+  "_note": "修订版任务书对应的路径与实验口径；脚本目前通过命令行参数读取，本文件用于记录与后续薄层读取。",
+  "task_book": "docs/task.md",
+  "task_book_original": "docs/archive/task_book_original.md",
+  "corpus_root": ".",
+  "scales": {
+    "S": "corpus/S",
+    "M": "corpus/M",
+    "L": "corpus/L"
+  },
+  "questions": "questions_all163.jsonl",
+  "questions_core20": "questions_core20.jsonl",
+  "expectations": "scale_expectations.json",
+  "runs_root": "code/runs",
+  "judge": {
+    "routing": "A/B/C/E -> kimi; D -> deepseek-v4-pro; 分歧 -> deepseek-v4-pro",
+    "config": "code/config/judges.json"
+  },
+  "scale_definition": {
+    "S": "10 docs; 41 answer / 122 refuse",
+    "M": "50 docs; 103 answer / 60 refuse",
+    "L": "100 docs; 153 answer / 10 refuse"
+  },
+  "repeats": {
+    "core20_main": 3,
+    "L_and_hybrid": 1,
+    "reason": "Token/费用/硬件限制；L 与 hybrid 只跑 1 次，报告如实标注"
+  },
+  "ollama": "不用于主实验；仅保留 4B/7B 负结果附录",
+  "weekly_report": false,
+  "stage_summary": false,
+  "reproduce": {
+    "script": "reproduction/scripts/reproduce_core20.ps1",
+    "status": "not_run",
+    "reason": "Token 不足；需先申请本地大模型使用权限或额外 API 配额"
+  }
+}

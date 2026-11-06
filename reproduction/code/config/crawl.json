@@ -1,0 +1,30 @@
+{
+  "source": "cninfo",
+  "years": [2023, 2024, 2025],
+  "companies_csv": "config/companies.csv",
+  "output_dir": "corpus",
+  "no_llm": true,
+  "request": {
+    "metadata_interval_sec": 1.2,
+    "pdf_interval_sec": 0.8,
+    "jitter_sec": 0.4,
+    "metadata_timeout_sec": 30,
+    "pdf_timeout_sec": 120,
+    "retries": 3
+  },
+  "filters": {
+    "min_chars": 2000,
+    "min_chars_per_page": 100,
+    "min_pdf_kb": 20,
+    "max_pdf_kb": 2048
+  },
+  "select": {
+    "order": "summary_first_size_first",
+    "summary_scales": ["S", "M"],
+    "targets": {
+      "S": {"count": [50, 70], "mb": [1.5, 3.0], "company_cap": 2},
+      "M": {"count": [500, 700], "mb": [15.0, 25.0], "company_cap": 4},
+      "L": {"count": [5000, 7000], "mb": [90.0, 10000.0], "company_cap": 8}
+    }
+  }
+}

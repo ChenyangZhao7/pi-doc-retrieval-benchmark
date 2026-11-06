@@ -1,0 +1,27 @@
+# Secrets
+.env
+.secrets*
+*.local.json
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Runtime output
+code/runs/
+reproduction/code/runs/
+.cache/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local archives / large raw traces
+repo.bundle
+*.zip
+*.7z

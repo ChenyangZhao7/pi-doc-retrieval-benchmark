@@ -1,0 +1,497 @@
+{
+  "seed": 20261104,
+  "allocation": {
+    "old80": {
+      "A": 5,
+      "B": 5,
+      "C": 4,
+      "D": 4,
+      "E": 2
+    },
+    "new50": {
+      "A": 7,
+      "B": 3,
+      "C": 1,
+      "D": 1,
+      "E": 0
+    },
+    "new33": {
+      "A": 5,
+      "B": 2,
+      "C": 1,
+      "D": 0,
+      "E": 0
+    }
+  },
+  "n": 40,
+  "ids": [
+    "q301",
+    "q306",
+    "q308",
+    "q311",
+    "q318",
+    "q320",
+    "q323",
+    "q327",
+    "q328",
+    "q332",
+    "q339",
+    "q344",
+    "q346",
+    "q353",
+    "q354",
+    "q357",
+    "q366",
+    "q367",
+    "q372",
+    "q374",
+    "q384",
+    "q387",
+    "q390",
+    "q402",
+    "q403",
+    "q405",
+    "q409",
+    "q416",
+    "q419",
+    "q421",
+    "q426",
+    "q430",
+    "q441",
+    "q443",
+    "q445",
+    "q446",
+    "q448",
+    "q453",
+    "q457",
+    "q461"
+  ],
+  "source_counts": {
+    "old80": 20,
+    "new50": 12,
+    "new33": 8
+  },
+  "category_counts": {
+    "A": 17,
+    "B": 10,
+    "C": 6,
+    "D": 5,
+    "E": 2
+  },
+  "expected_counts": {
+    "S": {
+      "answer": 9,
+      "refuse": 31
+    },
+    "M": {
+      "answer": 26,
+      "refuse": 14
+    },
+    "L": {
+      "answer": 38,
+      "refuse": 2
+    }
+  },
+  "items": [
+    {
+      "id": "q301",
+      "source": "old80",
+      "category": "A",
+      "expected": {
+        "S": "answer",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q306",
+      "source": "old80",
+      "category": "B",
+      "expected": {
+        "S": "answer",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q308",
+      "source": "old80",
+      "category": "B",
+      "expected": {
+        "S": "answer",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q311",
+      "source": "old80",
+      "category": "C",
+      "expected": {
+        "S": "answer",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q318",
+      "source": "old80",
+      "category": "D",
+      "expected": {
+        "S": "answer",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q320",
+      "source": "old80",
+      "category": "E",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "refuse"
+      }
+    },
+    {
+      "id": "q323",
+      "source": "old80",
+      "category": "A",
+      "expected": {
+        "S": "answer",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q327",
+      "source": "old80",
+      "category": "A",
+      "expected": {
+        "S": "answer",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q328",
+      "source": "old80",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q332",
+      "source": "old80",
+      "category": "A",
+      "expected": {
+        "S": "answer",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q339",
+      "source": "old80",
+      "category": "B",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q344",
+      "source": "old80",
+      "category": "B",
+      "expected": {
+        "S": "answer",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q346",
+      "source": "old80",
+      "category": "B",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q353",
+      "source": "old80",
+      "category": "C",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q354",
+      "source": "old80",
+      "category": "C",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q357",
+      "source": "old80",
+      "category": "C",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q366",
+      "source": "old80",
+      "category": "D",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q367",
+      "source": "old80",
+      "category": "D",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q372",
+      "source": "old80",
+      "category": "D",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q374",
+      "source": "old80",
+      "category": "E",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "refuse"
+      }
+    },
+    {
+      "id": "q384",
+      "source": "new50",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q387",
+      "source": "new50",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q390",
+      "source": "new50",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q402",
+      "source": "new50",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q403",
+      "source": "new50",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q405",
+      "source": "new50",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q409",
+      "source": "new50",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q416",
+      "source": "new50",
+      "category": "B",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q419",
+      "source": "new50",
+      "category": "B",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q421",
+      "source": "new50",
+      "category": "B",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q426",
+      "source": "new50",
+      "category": "C",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q430",
+      "source": "new50",
+      "category": "D",
+      "expected": {
+        "S": "refuse",
+        "M": "refuse",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q441",
+      "source": "new33",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q443",
+      "source": "new33",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q445",
+      "source": "new33",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q446",
+      "source": "new33",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q448",
+      "source": "new33",
+      "category": "A",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q453",
+      "source": "new33",
+      "category": "B",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q457",
+      "source": "new33",
+      "category": "B",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    },
+    {
+      "id": "q461",
+      "source": "new33",
+      "category": "C",
+      "expected": {
+        "S": "refuse",
+        "M": "answer",
+        "L": "answer"
+      }
+    }
+  ]
+}

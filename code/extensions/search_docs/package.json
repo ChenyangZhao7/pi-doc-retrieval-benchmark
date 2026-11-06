@@ -1,0 +1,11 @@
+{
+  "name": "pi-search-docs",
+  "private": true,
+  "type": "module",
+  "description": "search_docs: local bge embedding + LanceDB retrieval for the pi CLI benchmark (G3/G4)",
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2",
+    "@lancedb/lancedb": "^0.41.0",
+    "typebox": "^1.3.27"
+  }
+}

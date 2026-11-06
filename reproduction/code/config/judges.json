@@ -1,0 +1,74 @@
+{
+  "$comment": "打分器配置。新增打分器时在这里加一项，不要再往 grade.py 里写死 provider 逻辑。",
+  "routing": {
+    "$comment": "auto 模式：A/B/C/E 用便宜且免费的 Kimi，D 用更强的 V4 Pro；分歧由 cross_check.py 用 V4 Pro 裁决。",
+    "by_category": {
+      "A": "kimi",
+      "B": "kimi",
+      "C": "kimi",
+      "E": "kimi",
+      "D": "deepseek-v4-pro"
+    },
+    "fallback": "deepseek-v4-pro",
+    "disagreement_judge": "deepseek-v4-pro"
+  },
+  "judges": {
+    "deepseek-v4-pro": {
+      "provider": "deepseek",
+      "base_url": "https://api.deepseek.com/chat/completions",
+      "model": "deepseek-v4-pro",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "snapshot": "DeepSeek-V4-Pro-0813",
+      "params": {
+        "temperature": 0,
+        "thinking": { "type": "disabled" },
+        "response_format": { "type": "json_object" }
+      },
+      "pricing": {
+        "currency": "USD",
+        "peak": { "input": 1.32, "output": 3.96, "cache_read": 0.044 },
+        "off_peak": { "input": 0.66, "output": 1.98, "cache_read": 0.022 }
+      }
+    },
+    "kimi": {
+      "provider": "moonshot",
+      "base_url": "https://api.kimi.com/coding/v1/chat/completions",
+      "model": "kimi-for-coding",
+      "api_key_env": ["MOONSHOT_API_KEY", "KIMI_API_KEY"],
+      "snapshot": "kimi-for-coding (K2.8 Preview)",
+      "$comment": "这个 key 是 Kimi For Coding 订阅，只在 api.kimi.com/coding/v1 生效。默认用套餐内的 kimi-for-coding（额度消耗最低），k3.1-pro 留给争议题复核。",
+      "params": {
+        "reasoning_effort": "low",
+        "response_format": { "type": "json_object" }
+      },
+      "pricing": {
+        "currency": "CNY",
+        "billing": "subscription",
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "kimi-pro": {
+      "provider": "moonshot",
+      "base_url": "https://api.kimi.com/coding/v1/chat/completions",
+      "model": "k3.1-pro",
+      "api_key_env": ["MOONSHOT_API_KEY", "KIMI_API_KEY"],
+      "snapshot": "k3.1-pro (Kimi For Coding)",
+      "$comment": "仅用于争议题复核，额度消耗高。K3.1 Pro 始终开启思考，temperature 固定 1.0 且不建议传。",
+      "params": {
+        "reasoning_effort": "low",
+        "response_format": { "type": "json_object" }
+      },
+      "pricing": {
+        "currency": "CNY",
+        "billing": "subscription",
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

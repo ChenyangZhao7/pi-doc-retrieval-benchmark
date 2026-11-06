@@ -1,0 +1,193 @@
+{
+  "G0": {
+    "description": "无工具，语料整篇塞进上下文（仅 S 档，1M 上下文下才可行）",
+    "tools": [],
+    "context_files": false
+  },
+  "G1": {
+    "description": "纯只读 CLI：read / grep / find / ls（corpus_guard 限制在 cwd 内）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard"
+    ]
+  },
+  "G2": {
+    "description": "G1 + bash（corpus_guard + bash_guard；仍需专用目录与审计）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls",
+      "bash"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard",
+      "extensions/bash_guard"
+    ]
+  },
+  "G1+": {
+    "description": "G1 + 目录索引：加载 AGENTS.md（corpus_guard 限制在 cwd 内）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls"
+    ],
+    "context_files": true,
+    "extensions": [
+      "extensions/corpus_guard"
+    ]
+  },
+  "G3": {
+    "description": "read + search_docs 向量检索（extension，bge + LanceDB）",
+    "tools": [
+      "read",
+      "search_docs"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/search_docs"
+    ]
+  },
+  "G4": {
+    "description": "G2 + search_docs 混合",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls",
+      "bash",
+      "search_docs"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/search_docs"
+    ]
+  },
+  "G1c": {
+    "description": "G1 + 强制 compaction（仅压缩对照）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard"
+    ]
+  },
+  "G1c2": {
+    "description": "G1 + 更强 compaction（仅压缩对照）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard"
+    ]
+  },
+  "G1c3": {
+    "description": "G1 + 极早 compaction（仅压缩对照）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard"
+    ]
+  },
+  "G3h": {
+    "description": "G3 + 混合检索验证（仅冒烟）",
+    "tools": [
+      "read",
+      "search_docs"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/search_docs"
+    ]
+  },
+  "G4h": {
+    "description": "G4 + 混合检索（hybrid 正式表，1 次重复）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls",
+      "bash",
+      "search_docs"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard",
+      "extensions/bash_guard",
+      "extensions/search_docs"
+    ]
+  },
+  "G1o": {
+    "description": "G1 + Ollama 本地模型（对照）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard"
+    ]
+  },
+  "G1oq": {
+    "description": "G1 + Ollama qwen2.5:7b（冒烟）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard"
+    ]
+  },
+  "G1od": {
+    "description": "G1 + Ollama deepseek-r1:7b（冒烟）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard"
+    ]
+  },
+  "G1o35": {
+    "description": "G1 + Ollama qwen3.5:4b（冒烟）",
+    "tools": [
+      "read",
+      "grep",
+      "find",
+      "ls"
+    ],
+    "context_files": false,
+    "extensions": [
+      "extensions/corpus_guard"
+    ]
+  }
+}
